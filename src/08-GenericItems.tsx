@@ -6,14 +6,17 @@ interface TableProps<TItem> {
 }
 
 export function Table<TItem>(props: TableProps<TItem>) {
+    console.log(props);
     return null;
-};
+}
 
 export default (
-    <Table items={[
-        {
-            id: "1",
-        }
-    ]}
-    renderItem={(item) => <div>{item.id}</div>}/>
+    <Table
+        items={[
+            {
+                id: '1',
+            },
+        ]}
+        renderItem={(item) => <div>{item.id}</div>}
+    />
 );

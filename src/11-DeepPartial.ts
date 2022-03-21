@@ -1,4 +1,6 @@
-export type DeepPartial<T> = T extends Function
+type  DeepPartialArray<T> = Array<DeepPartial<T>>;
+
+export type DeepPartial<T> = T extends typeof Function
     ? T
     : T extends Array<infer InferedArrayMember>
     ? DeepPartialArray<InferedArrayMember>
@@ -6,7 +8,6 @@ export type DeepPartial<T> = T extends Function
     ? DeepPartialObject<T>
     : T | undefined;
 
-interface DeepPartialArray<T> extends Array<DeepPartial<T>> {}
 
 type DeepPartialObject<T> = {
     [key in keyof T]?: DeepPartial<T[key]>;
@@ -15,26 +16,29 @@ type DeepPartialObject<T> = {
 interface Post {
     id: string;
     comments: {
-        value: string
+        value: string;
     }[];
     meta: {
         name: string;
         description: string;
     };
-};
+}
 
 // Since we use meta will be required to add name and description.
 const one: Partial<Post> = {
-    id: "1",
+    id: '1',
     meta: {
-        name: "Post 1",
-    //  description: "Lorem"
-    }
+        name: 'Post 1',
+         description: "Lorem"
+    },
 };
 
 const two: DeepPartial<Post> = {
-    id: "1",
+    id: '1',
     meta: {
-        name: "Post 1"
-    }
+        name: 'Post 1',
+    },
 };
+
+console.log(one);
+console.log(two);

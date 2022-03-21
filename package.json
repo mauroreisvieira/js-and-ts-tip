@@ -4,20 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint . --ext .ts,.tsx",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mauroreisvieira/typescript-tip.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mauroreisvieira/typescript-tip/issues"
-  },
-  "homepage": "https://github.com/mauroreisvieira/typescript-tip#readme",
   "dependencies": {
-    "react": "^17.0.2",
+    "eslint-config-prettier": "^8.5.0",
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.15.0",
+    "@typescript-eslint/parser": "^5.15.0",
+    "eslint": "^8.11.0",
+    "prettier": "^2.6.0",
     "typescript": "^4.6.2"
   }
 }
