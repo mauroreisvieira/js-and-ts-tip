@@ -18,3 +18,4 @@
 - [TypeScript Tip #12](https://twitter.com/mpocock1/status/1506607945445949446)
 - [TypeScript Tip #13](https://twitter.com/mpocock1/status/1508408811635322883)
 - [TypeScript Tip #14](https://twitter.com/mpocock1/status/1509131700382715905)
+- [TypeScript Tip #15](https://twitter.com/mpocock1/status/1509850662795989005)
