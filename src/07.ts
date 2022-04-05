@@ -4,9 +4,7 @@ export const myObject = {
     c: 3,
 };
 
-const objectKeys = <Obj>(obj: Obj): (keyof Obj)[] => {
-    return Object.keys(obj) as (keyof Obj)[];
-};
+const objectKeys: <Obj>(o: Obj) => (keyof Obj)[] = Object.keys;
 
 objectKeys(myObject).forEach((key) => {
     console.log(myObject[key]);
