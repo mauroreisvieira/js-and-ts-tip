@@ -26,3 +26,4 @@
 - [TypeScript Tip #21](https://twitter.com/mattpocockuk/status/1525075901905522691)
 - [TypeScript Tip #22](https://twitter.com/mattpocockuk/status/1526162474084737024)
 - [TypeScript Tip #23](https://twitter.com/mattpocockuk/status/1534130638755880961)
+- [TypeScript Tip #24](https://twitter.com/mattpocockuk/status/1536670032360611840)
