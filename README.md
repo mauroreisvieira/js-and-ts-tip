@@ -32,3 +32,4 @@
 - [TypeScript Tip #27](https://twitter.com/mattpocockuk/status/1549783691609587712)
 - [TypeScript Tip #28](https://twitter.com/mattpocockuk/status/1552254507496652800)
 - [TypeScript Tip #29]()
+- [TypeScript Tip #30](https://twitter.com/mattpocockuk/status/1587431441427795968)
