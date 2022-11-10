@@ -39,3 +39,4 @@
 | [28](src/typescript/28.ts) | conditional types | [Matt Pocock](https://twitter.com/mattpocockuk) | [Twitter](https://twitter.com/mattpocockuk/status/1552254507496652800)
 | [29](src/typescript/29.ts) | `useState` can behave in slightly unexpected  | [Matt Pocock](https://twitter.com/mattpocockuk) | [Twitter](https://twitter.com/mattpocockuk/status/1570377640137179137)
 | [30](src/typescript/30.ts) | transform a discriminated union into a union | [Matt Pocock](https://twitter.com/mattpocockuk) | [Twitter](https://twitter.com/mattpocockuk/status/1587431441427795968)
+| [31](src/typescript/31.ts) | global scope | [Matt Pocock](https://twitter.com/mattpocockuk) | [Twitter](https://twitter.com/mattpocockuk/status/1590333383501979649)
