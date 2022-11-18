@@ -5,6 +5,7 @@
 | # | Tip | Author | Link Post |
 | --- | --- | --- | --- |
 | [01](src/javascript/01.js) | remove object properties | [Aamir Muhammad Amin](https://www.linkedin.com/in/aamir-muhammad-amin-a80a0421a/) | [Linkedin](https://www.linkedin.com/posts/aamir-muhammad-amin-a80a0421a_javascript-activity-6994770362081132544-iSst) |
+| [02](src/javascript/02.js) | 4 new javascript array methods | [Wes Bos](https://www.youtube.com/@WesBos) | [Youtube](https://www.youtube.com/shorts/0QeRLR146tc) |
 
 ## Typescript
 
