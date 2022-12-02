@@ -42,3 +42,4 @@
 | [30](src/typescript/30.ts) | transform a discriminated union into a union | [Matt Pocock](https://twitter.com/mattpocockuk) | [Twitter](https://twitter.com/mattpocockuk/status/1587431441427795968)
 | [31](src/typescript/31.ts) | global scope | [Matt Pocock](https://twitter.com/mattpocockuk) | [Twitter](https://twitter.com/mattpocockuk/status/1590333383501979649)
 | [32](src/typescript/32.ts) | compare a normal union, a discriminated union, and a type predicate | [Matt Pocock](https://twitter.com/mattpocockuk) | [Twitter](https://twitter.com/mattpocockuk/status/1592130978234900484)
+| [33](src/typescript/33.ts) | time complexity | [Nik Sumeiko](https://www.linkedin.com/in/niksumeiko/) | [Linkedin](https://www.linkedin.com/posts/niksumeiko_cleancode-javascript-activity-6985932162764025856-M_pV/?utm_source=share&utm_medium=member_desktop)
