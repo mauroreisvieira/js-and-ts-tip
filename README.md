@@ -8,6 +8,7 @@
 | [02](src/javascript/02.js) | 4 new JavaScript array methods   | [Wes Bos](https://www.youtube.com/@WesBos)                                        | [Youtube](https://www.youtube.com/shorts/0QeRLR146tc)                                                                 |
 | [03](src/javascript/03.js) | reusable Array search predicates | [Jason Miller](https://twitter.com/_developit)                                    | [Website](https://jasonformat.com/reusable-array-search-predicates)                                                   |
 | [04](src/javascript/04.js) | array reduce                     | [Wes Bos](https://www.youtube.com/@WesBos)                                        | [Youtube](https://www.youtube.com/watch?v=izVZ22XaZUc&ab_channel=WesBos)                                              |
+| [05](src/javascript/05.js) | sort localeCompare                     | [Wes Bos](https://www.youtube.com/@WesBos)                                        | [Youtube](https://www.youtube.com/shorts/rlbzoul437k)                                              |
 
 ## Typescript
 

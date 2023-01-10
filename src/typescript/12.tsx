@@ -8,7 +8,13 @@ interface IconProps {
     size: IconSize;
 }
 
-export const Icon = (props: IconProps) => <></>;
+export const Icon = (props: IconProps) => {
+    const computedClassName = {
+        size: props.size && `size--${props.size}`,
+    };
+
+    return <div className={computedClassName.size} />
+};
 
 export default () => {
     return (

@@ -1,7 +1,7 @@
 const removeKey = (key, obj) => {
     const { [key]: omitted, ...res } = obj;
 
-    console.log("omitted", omitted);
+    console.log("omitted", omitted); // omitted 2
     return res;
 };
 
@@ -10,4 +10,4 @@ const obj = {
     bar: 2,
 };
 
-console.log(removeKey("bar", obj));
+console.log(removeKey("bar", obj));// { foo: 1 }

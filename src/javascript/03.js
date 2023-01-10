@@ -21,7 +21,7 @@ function publishedAfter(item) {
 // ...and specify the comparison value dynamically:
 console.log(blogPosts.find(hasName, { name: "one" })); // {name:'one'…}
 console.log(blogPosts.findIndex(hasName, { name: "two" })); // 1
-console.log(blogPosts.every(hasTag, { tag: "b" })); // true
+console.log(blogPosts.every(hasTag, { tag: "b" })); // false
 console.log(blogPosts.filter(hasTag, { tag: "b" })); // [{name:'one'…}, {name:'three'…}]
 console.log(blogPosts.filter(publishedAfter, new Date(2020, 12, 25))); // [{name:'three'…}]
 
