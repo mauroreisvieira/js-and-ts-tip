@@ -6,5 +6,5 @@ const isGoodName = (name: VeryGoodName) => name;
 
 isGoodName("matt");
 
-// export type Result = Name extends GoodName ? true : false;
-export type Result = VeryGoodName extends GoodName ? true : false;
+export type Falsy = Name extends GoodName ? true : false;
+export type Truly = VeryGoodName extends GoodName ? true : false;

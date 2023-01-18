@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 export const getDeepValue = <
     Obj,
     FirstKey extends keyof Obj,
@@ -7,6 +8,7 @@ export const getDeepValue = <
     firstKey: FirstKey,
     secondKey: SecondKey
 ): Obj[FirstKey][SecondKey] => {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     return {} as any;
 };
 

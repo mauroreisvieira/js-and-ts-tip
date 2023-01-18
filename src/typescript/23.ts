@@ -3,7 +3,9 @@ interface UserInfo {
     role: 'admin' | undefined;
 }
 
-export const createUser = (userInfo: UserInfo) => {};
+export const createUser = (userInfo: UserInfo) => {
+    console.log(userInfo);
+};
 
 createUser({ name: 'Matt', role: 'admin' });
 createUser({ name: 'David', role: undefined});

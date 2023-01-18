@@ -1,5 +1,7 @@
+/* eslint-disable no-var */
+/* eslint-disable @typescript-eslint/no-namespace */
 declare global {
-  var __DEV__:boolean;
+  var __DEV__: boolean;
   function isCool(): boolean;
 
   interface Window {

@@ -1,3 +1,4 @@
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 type CheckForBadArgs<Arg> = Arg extends any[]
     ? 'You cannot compare two arrays using deepEqualCompare'
     : Arg;
