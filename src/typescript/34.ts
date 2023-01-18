@@ -14,4 +14,4 @@ const mySettings = {
 mySettings.title = "New Title";
 console.log(mySettings.size);
 // Invalid Proprieties
-mySettings.limit = 200;
+// mySettings.limit = 200;
